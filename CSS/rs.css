@@ -1,0 +1,71 @@
+
+.form1{
+    width: 900px;
+    height: 400px;
+    border: 1px solid black;
+}
+
+
+.div1{
+    float: left;
+    width: 400px;
+    height: 100px;
+
+}
+.custname{
+    margin-top: 10px;
+    height: 30px;
+    margin-left: 20px;
+    border-radius: 5px;
+} 
+.phno{
+    margin-top: 50px;
+    height: 30px;
+    margin-left: 50px;
+    border-radius: 5px;
+
+}
+.div2{
+    float: right;
+    width: 400px;
+    height: 100px;
+  
+    
+}
+.email{
+    margin-top: 10px;
+    height: 30px;
+    margin-left: 20px;
+    border-radius: 5px;
+}
+.address{
+    
+    margin-top: 40px;
+    margin-left: 60px;
+    border-radius: 5px;
+
+}
+.div3{
+    margin: 150px;
+    height: 100px;
+
+    
+}
+.save{
+    width: 100px;
+    height: 40px;
+    margin-left: 100px;
+    border-radius: 5px;
+}
+.reset{
+    width: 100px;
+    height: 40px;
+    margin-left: 150px;
+    border-radius: 5px;
+    
+}
+.clear::after{
+    content: "";
+    display: table;
+    clear: both;
+}
